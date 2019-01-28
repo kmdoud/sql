@@ -9,3 +9,4 @@ join products p
 on rl.productsid = p.id
 join vendors v
 on p.vendorid = v.id
+where r.Description = 'sweater request'
